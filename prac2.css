@@ -2,36 +2,49 @@
  * @Author: yuheng li a1793138
  * @Date: 2023-03-15 13:26:49
  * @LastEditors: yuheng 
- * @LastEditTime: 2023-03-15 13:51:11
- * @FilePath: \WEEK3\prac2.css
+ * @LastEditTime: 2023-03-15 20:38:04
+ * @FilePath: \WDC-week3\prac2.css
  * @Description: 
  * 
  * Copyright (c) ${2023} by ${yuheng li}, All Rights Reserved. 
  */
 
-.heading2-2{
+ h1 {
     font-family: sans-serif;
-}
-.p{
+  }
+  
+  p {
     font-family: serif;
-}
-.p2-2 a{
+  }
+p a{
     color: darkgreen;
 }
-.p2-2 del{
+p del{
     color: grey;
 }
-.p-second-2-2 mark{
+p mark{
     background-color: pink;
     color: darkblue;
 }
-.heading-l2-2-2{
+h2{
     text-align: center;
 }
-.pre2-2{
+pre{
     font-family: monospace;
     font-size: 80%;
 }
-.heading-h3-2-3{
+
+
+h3 {
     color: rgba(0, 0, 139, 0.8);
-}
+  }
+
+.transparent-text {
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  
+body {
+    background-color: #dcf5f5;
+    background-image: url("./cross.png");
+  }
