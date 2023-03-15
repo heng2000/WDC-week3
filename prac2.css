@@ -2,7 +2,7 @@
  * @Author: yuheng li a1793138
  * @Date: 2023-03-15 13:26:49
  * @LastEditors: yuheng 
- * @LastEditTime: 2023-03-15 20:38:04
+ * @LastEditTime: 2023-03-15 21:10:25
  * @FilePath: \WDC-week3\prac2.css
  * @Description: 
  * 
@@ -48,3 +48,43 @@ body {
     background-color: #dcf5f5;
     background-image: url("./cross.png");
   }
+
+
+#content {
+  background: white;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+}
+
+.blue-span {
+  color: blue;
+}
+.fancy-span {
+  font-family: cursive;
+}
+.blue-fancy{
+  color: blue;
+  font-family: cursive;
+}
+
+hr {
+  border-color: #cfdfe4;
+}
+.red-border-span {
+  border: 1px solid red;
+}
+.red-outline-span {
+  outline: 1px solid red;
+}
+.blue-border-span {
+  border: 1px solid blue;
+}
+.top-red-border-div {
+  border-bottom: none;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.bottom-blue-border-div{
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
