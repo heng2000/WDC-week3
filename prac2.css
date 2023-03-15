@@ -2,7 +2,7 @@
  * @Author: yuheng li a1793138
  * @Date: 2023-03-15 13:26:49
  * @LastEditors: yuheng 
- * @LastEditTime: 2023-03-15 21:10:25
+ * @LastEditTime: 2023-03-16 01:06:38
  * @FilePath: \WDC-week3\prac2.css
  * @Description: 
  * 
@@ -56,10 +56,10 @@ body {
   border-radius: 8px;
 }
 
-.blue-span {
+.blue {
   color: blue;
 }
-.fancy-span {
+.fancy {
   font-family: cursive;
 }
 .blue-fancy{
@@ -70,21 +70,51 @@ body {
 hr {
   border-color: #cfdfe4;
 }
-.red-border-span {
+.red-border {
   border: 1px solid red;
 }
-.red-outline-span {
-  outline: 1px solid red;
-}
-.blue-border-span {
+.blue-border {
   border: 1px solid blue;
 }
-.top-red-border-div {
+.red-outline{
+  outline: 1px solid red;
+}
+
+.top {
   border-bottom: none;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
-.bottom-blue-border-div{
+
+.bottom {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+} 
+
+.outer {
+  background: blue;
+  border: 1px solid red;
+}
+
+.inner {
+  margin: 10px 20px;
+  padding: 12px;
+  text-align: right;
+  background: yellow;
+  border: 1px solid red;
+  width: 700px;
+  height: 200px;
+  box-sizing: border-box;
+}
+
+.btm {
+  margin-top: 20px;
+}
+
+.btm-inner {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  padding: 12px;
+  box-sizing: border-box;
 }
