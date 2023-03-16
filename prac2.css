@@ -123,6 +123,12 @@ hr {
   box-sizing: border-box;
 }
 
+.content2-7{
+  background: white;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+}
+
 body{
   font-family: "Raleway", sans-serif;
 }
