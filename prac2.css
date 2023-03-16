@@ -2,7 +2,7 @@
  * @Author: yuheng li a1793138
  * @Date: 2023-03-15 13:26:49
  * @LastEditors: yuheng 
- * @LastEditTime: 2023-03-16 18:07:07
+ * @LastEditTime: 2023-03-16 18:11:56
  * @FilePath: \WDC-week3\prac2.css
  * @Description: 
  * 
@@ -123,6 +123,9 @@ hr {
   box-sizing: border-box;
 }
 
+body{
+  font-family: "Raleway", sans-serif;
+}
 h1 {
   font-family: "Raleway", sans-serif;
 }
@@ -137,11 +140,11 @@ blockquote {
   text-align: justify;
 }
 p{
-  font-family: "Noto Serif", sans-serif;;
+  font-family: "Noto Serif", serif;
 }
 
 h4{
-  font-family: "Raleway", sans-serif;;
+  font-family: "Raleway", sans-serif;
   font-style: italic;
   font-weight: normal;
   text-decoration: underline;
@@ -153,6 +156,7 @@ h4{
 }
 
 .div-i{
+  font-size: 34px;
   color: #bfcfd4;
   text-align: center;
 }
