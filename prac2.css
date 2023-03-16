@@ -2,7 +2,7 @@
  * @Author: yuheng li a1793138
  * @Date: 2023-03-15 13:26:49
  * @LastEditors: yuheng 
- * @LastEditTime: 2023-03-16 11:27:20
+ * @LastEditTime: 2023-03-16 15:13:13
  * @FilePath: \WDC-week3\prac2.css
  * @Description: 
  * 
@@ -90,7 +90,9 @@ hr {
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 } 
-
+hr {
+  border-color: #cfdfe4;
+}
 .outer {
   background: blue;
   border: 1px solid red;
