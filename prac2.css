@@ -2,7 +2,7 @@
  * @Author: yuheng li a1793138
  * @Date: 2023-03-15 13:26:49
  * @LastEditors: yuheng 
- * @LastEditTime: 2023-03-16 16:23:23
+ * @LastEditTime: 2023-03-16 18:07:07
  * @FilePath: \WDC-week3\prac2.css
  * @Description: 
  * 
@@ -136,14 +136,21 @@ blockquote {
   letter-spacing: 0.2em;
   text-align: justify;
 }
+p{
+  font-family: "Noto Serif", sans-serif;;
+}
 
 h4{
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;;
   font-style: italic;
   font-weight: normal;
   text-decoration: underline;
 }
-
+.content2-8{
+  background: white;
+  border: 1px solid darkgray;
+  border-radius: 8px;
+}
 
 .div-i{
   color: #bfcfd4;
